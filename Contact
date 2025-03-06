@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Contact"
+permalink: /contact/
+---
+
+
+<h1>Contact</h1>
+<article>
+  <p>For inquiries, you can reach us at:</p>
+  <ul>
+    <li>Email: your_email@domain.com</li>
+    <li>Office: Building, Room #</li>
+    <li>Phone: +1 (XXX) XXX-XXXX</li>
+    <!-- Add more details as needed -->
+  </ul>
+  <p>If you'd like to collaborate or join our group, please see our <a href="{{ site.url }}/about.html">About</a> page for more details.</p>
+</article>
