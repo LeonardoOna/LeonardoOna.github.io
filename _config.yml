@@ -1,7 +1,22 @@
-title: "Theoretical Biology Group"
-description: "Ecology and Evolution"
-url: "https://LeonardoOna.github.io"
-baseurl: ""  # Leave empty for a user site
-theme: minima  # Or another theme if you prefer
+title: "Leonardo Oña"
+tagline: "Theoretical evolutionary biology"
+description: "Mathematical models of cooperation, conflict, and ecological and evolutionary feedbacks."
+url: "https://leonardoona.github.io"
+baseurl: ""
+lang: en_GB
+author:
+  name: "Leonardo Oña"
+  url: "https://leonardoona.github.io"
+email: "leonardoxona@gmail.com"
+scholar_url: "https://scholar.google.com/citations?user=Q9lT4RQAAAAJ&hl=en&oi=ao"
+github_url: "https://github.com/LeonardoOna"
+researchgate_url: "https://www.researchgate.net/profile/Leonardo_Ona"
+wiko_profile_url: "https://www.wiko-berlin.de/fellows/akademisches-jahr/2026/ona-leonardo"
 plugins:
   - jekyll-seo-tag
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - ASSETS.md
+  - VALIDATION.md

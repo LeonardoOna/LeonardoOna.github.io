@@ -1,0 +1,75 @@
+- title: Researcher
+  id: researcher
+  members:
+    - name: Leonardo Oña
+      image: leonardo
+      affiliation: 'Fellow, College for Life Sciences, <a href="https://www.wiko-berlin.de/fellows/akademisches-jahr/2026/ona-leonardo">Wissenschaftskolleg zu Berlin</a>, September 2026 – January 2027'
+      education:
+        - 'MSc in Biology, University of Córdoba, 2006'
+        - 'MSc in Theoretical Physics, Instituto Balseiro, 2007 (Advisor: <a href="https://sites.google.com/view/guillermoabramson/">Guillermo Abramson</a>)'
+        - 'PhD in Theoretical Biology, Max Planck Institute for Evolutionary Anthropology &amp; University of Leipzig, 2014 (Advisors: <a href="https://sites.santafe.edu/~lachmann/">Michael Lachmann</a>, <a href="https://www.eva.mpg.de/genetics/staff/paabo/">Svante Pääbo</a>)'
+        - 'Postdoc, University of Groningen, 2013–2016 (Advisor: <a href="https://www.rug.nl/staff/g.s.van.doorn/">Sander van Doorn</a>)'
+      links:
+        - label: GitHub
+          url: https://github.com/LeonardoOna
+        - label: Google Scholar
+          url: https://scholar.google.com/citations?user=Q9lT4RQAAAAJ&hl=en&oi=ao
+        - label: ResearchGate
+          url: https://www.researchgate.net/profile/Leonardo_Ona
+- title: PhD students
+  id: phd-students
+  members:
+    - name: Maria Kostakou
+      image: maria
+      supervision: 'Co-supervised with <a href="https://www.ufz.de/index.php?en=49430">Dr. Stephanie Jurburg</a>'
+      affiliation: 'PhD student, <a href="https://www.ufz.de/index.php?en=38428">Microbial Interaction Ecology</a>, Helmholtz Centre for Environmental Research, Leipzig'
+      education:
+        - MSc in Systems Biology, School of Biotechnology of the Agricultural University of Athens, 2019
+      research: Spatial assembly in soil microbial communities across scales, land cover, and land use
+      links:
+        - label: ResearchGate
+          url: https://www.researchgate.net/profile/Maria_Kostakou
+    - name: Shalu Dwivedi
+      image: shalu
+      supervision: 'Co-supervised with <a href="https://www.bio.uni-jena.de/en/10516/prof-dr-stefan-schuster">Prof. Dr. Stefan Schuster</a>'
+      affiliation: 'PhD student, <a href="https://www.bio.uni-jena.de/en/10494/list-of-employees-in-the-chair-of-bioinformatics">Department of Bioinformatics</a>, Friedrich Schiller University Jena'
+      education:
+        - MSc in Fundamental Data Science, Grenoble Alpes University, France, 2019
+        - Assistant Professor in Department of Mathematics, Shri Ramswaroop Memorial University, Lucknow, India, 2014–2017
+        - MSc in Applied Mathematics, Indian Institute of Technology Roorkee, India, 2013
+      research: Modelling and computer simulation of biochemical defence and evasion mechanisms
+      links:
+        - label: ResearchGate
+          url: https://www.researchgate.net/profile/Shalu-Dwivedi
+- title: Master's students
+  id: masters-students
+  members:
+    - name: Anna Milchin
+      image: anna
+      education:
+        - BSc in Ecology, University of Osnabrück, 2020
+      research: The role of demographic stochasticity and space affecting chaotic dynamics and the paradox of the phytoplankton
+      links:
+        - label: GitHub
+          url: https://github.com/KaiYoUmi
+        - label: ResearchGate
+          url: https://www.researchgate.net/profile/Anna-Milchin
+    - name: Badis Gazbar
+      image: badis
+      education:
+        - BSc in Neurobiology, University of Düsseldorf, 2020
+      research: Constitutive and induced responses in host–parasite interaction networks
+      links:
+        - label: ResearchGate
+          url: https://www.researchgate.net/profile/Badis-Gazbar
+    - name: Nele-Carolin Sommer
+      image: nele
+      education:
+        - BSc in Ecology, University of Osnabrück, 2023
+      research: Understanding the influence of species-specific dispersal rates and interaction partners on ecological network structure
+- title: Bachelor's students
+  id: bachelors-students
+  members:
+    - name: Finn Dinnus
+      image: finn
+      research: The fitness effects of partner loss in free-living mutualistic associations

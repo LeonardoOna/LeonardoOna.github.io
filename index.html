@@ -1,11 +1,36 @@
 ---
 layout: default
 title: "Home"
+description: "Leonardo Oña — theoretical evolutionary biologist studying cooperation, conflict, and ecological and evolutionary feedbacks."
+page_class: home-page
+image: /assets/img/portraits/leonardo.jpg
 ---
 
-<div style="display: flex; align-items: center; margin-bottom: 1rem;">
-  <img src="assets/img/Home.jpg"
-       alt="Photo of the TheoBio"
-       width="700"
-       style="display: block; margin: 0 auto;">
-</div>
+<section class="home-intro" aria-labelledby="home-title">
+  <div class="home-copy">
+    <p class="eyebrow">Theoretical evolutionary biology</p>
+    <h1 id="home-title">Leonardo Oña</h1>
+    <p class="home-statement">I use mathematical models to make biological assumptions explicit and uncover consequences that intuition alone would not reveal.</p>
+    <p class="home-summary">I study how interactions among organisms shape cooperation, conflict and the feedbacks between ecology and evolution.</p>
+    <div class="home-links">
+      <a class="text-link" href="{{ '/about.html#research' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
+      <a href="{{ site.scholar_url }}">Publications</a>
+      <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+    </div>
+    <p class="current-affiliation">Currently a Fellow at<br><a href="{{ site.wiko_profile_url }}">Wissenschaftskolleg zu Berlin</a><br><span>September 2026 – January 2027</span></p>
+  </div>
+  <figure class="home-portrait">
+    <img src="{{ '/assets/img/portraits/leonardo.jpg' | relative_url }}"
+         srcset="{{ '/assets/img/portraits/leonardo.jpg' | relative_url }} 600w, {{ '/assets/img/portraits/leonardo-large.jpg' | relative_url }} 900w"
+         sizes="(max-width: 680px) 70vw, (max-width: 900px) 35vw, 360px"
+         alt="Leonardo Oña outdoors" width="600" height="774" fetchpriority="high" decoding="async">
+  </figure>
+</section>
+<section class="research-overview" aria-labelledby="research-overview-title">
+  <h2 id="research-overview-title" class="eyebrow">Three connected problems</h2>
+  <div class="research-links">
+    <a href="{{ '/about.html#interdependence' | relative_url }}"><span class="topic-number" aria-hidden="true">01</span><span>Interdependence <br>and cooperation</span><span class="topic-arrow" aria-hidden="true">↗</span></a>
+    <a href="{{ '/about.html#conflict' | relative_url }}"><span class="topic-number" aria-hidden="true">02</span><span>Conflict <br>and coevolution</span><span class="topic-arrow" aria-hidden="true">↗</span></a>
+    <a href="{{ '/about.html#feedbacks' | relative_url }}"><span class="topic-number" aria-hidden="true">03</span><span>Ecological and <br>evolutionary feedbacks</span><span class="topic-arrow" aria-hidden="true">↗</span></a>
+  </div>
+</section>

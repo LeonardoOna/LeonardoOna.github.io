@@ -1,36 +1,41 @@
 ---
 layout: default
 title: "Contact"
-# permalink: /contact/
+description: "Contact Leonardo Oña, Fellow at Wissenschaftskolleg zu Berlin, Wallotstraße 19, 14193 Berlin, Germany."
+page_class: contact-page
 ---
 
-
-<h1>Contact</h1>
-<article>
-  <p>For inquiries, you can reach us at:</p>
-  <ul>
-    <li>Email: leonardoxona@gmail.com</li>
-    <li>Office: 67/117</li>
-    <li>Phone: +40 (0)541 969-2829</li>
-
-<br>
-    
-  <img src="assets/img/map.jpg"
-     alt="Photo of the working address"
-     width="700"
-     style="display: block; margin: 0 auto;">
-<br>
-    
- <hr />
-  <p>University of Osnabrück,<br />
-  Department of Ecology,<br />
-  Barbarastrasse 13,<br />
-  Building 67,<br />
-  49076, Osnabrück, Germany.</p>
-
-    <br>
-    <br>
-    
-  </ul>
-  <p>If you'd like to collaborate or join our group, please see our <a href="{{ site.url }}/about.html">About</a> page for more details.</p>
+<header class="page-heading">
+  <p class="eyebrow">Enquiries and collaborations</p>
+  <h1>Contact</h1>
+</header>
+<article class="contact-content">
+  <p class="contact-intro">For research enquiries, collaborations or possible student projects, please contact me by email.</p>
+  <p class="contact-email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  <figure class="contact-building">
+    <img src="{{ '/assets/img/wiko-berlin.jpg' | relative_url }}"
+         srcset="{{ '/assets/img/wiko-berlin-small.jpg' | relative_url }} 720w, {{ '/assets/img/wiko-berlin.jpg' | relative_url }} 1440w"
+         sizes="(max-width: 760px) calc(100vw - 40px), 720px"
+         alt="The Wissenschaftskolleg zu Berlin building behind trees on Wallotstraße"
+         width="1440" height="1080" decoding="async">
+    <figcaption>Wissenschaftskolleg zu Berlin, Wallotstraße.<br>Photograph (2010): <a href="https://commons.wikimedia.org/wiki/File:GrunewaldWallotstra%C3%9Fe.JPG">Fridolin freudenfett (Peter Kuley)</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>. Resized and compressed.</figcaption>
+  </figure>
+  <section class="contact-location" aria-labelledby="location-title">
+    <h2 id="location-title">Current address</h2>
+    <p>Fellow, College for Life Sciences<br>September 2026 – January 2027</p>
+    <address>
+      <a href="{{ site.wiko_profile_url }}">Wissenschaftskolleg zu Berlin</a><br>
+      Institute for Advanced Study<br>
+      Wallotstraße 19<br>
+      14193 Berlin<br>
+      Germany
+    </address>
+  </section>
+  <figure class="contact-map">
+    <iframe title="OpenStreetMap showing Wissenschaftskolleg zu Berlin at Wallotstraße 19"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=13.275623023509981%2C52.49024452311796%2C13.277436196804047%2C52.492285960341&amp;layer=mapnik&amp;marker=52.49126525357467%2C13.276529610157013"
+            width="720" height="380" loading="lazy" referrerpolicy="no-referrer"></iframe>
+    <figcaption><a href="https://www.openstreetmap.org/?mlat=52.49127&amp;mlon=13.27653#map=17/52.49127/13.27653">Open a larger map</a> · © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.<br><a href="https://www.wiko-berlin.de/kontakt">Official Wiko contact and travel information</a></figcaption>
+  </figure>
+  <p class="contact-closing">For more about my research and possible projects, please see the <a href="{{ '/about.html' | relative_url }}">About page</a>.</p>
 </article>

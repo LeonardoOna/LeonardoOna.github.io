@@ -1,0 +1,28 @@
+leonardo:
+  path: /assets/img/portraits/leonardo.jpg
+  width: 600
+  height: 774
+maria:
+  path: /assets/img/portraits/maria.jpg
+  width: 600
+  height: 774
+shalu:
+  path: /assets/img/portraits/shalu.jpg
+  width: 600
+  height: 774
+anna:
+  path: /assets/img/portraits/anna.jpg
+  width: 600
+  height: 767
+badis:
+  path: /assets/img/portraits/badis.jpg
+  width: 600
+  height: 774
+nele:
+  path: /assets/img/portraits/nele.jpg
+  width: 600
+  height: 772
+finn:
+  path: /assets/img/portraits/finn.jpg
+  width: 600
+  height: 773
