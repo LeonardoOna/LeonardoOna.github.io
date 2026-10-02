@@ -50,7 +50,8 @@ The other checked sources responded successfully.
   still to be checked once the branch can be pushed.
 - The GitHub integration rejected remote branch creation with HTTP 403,
   “Resource not accessible by integration”. No changes have been made to
-  remote `main`, and no pull request has been merged.
+  remote `main`. No remote branch or pull request was created. A normal Git
+  push also failed because this workspace has no GitHub credentials.
 
 ## Intended pull request
 
