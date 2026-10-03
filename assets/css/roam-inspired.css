@@ -1,0 +1,225 @@
+:root {
+  --paper: #fbfbfa;
+  --ink: #333638;
+  --muted: #747a7f;
+  --faint: #e2e5e7;
+  --rule: #d7dadd;
+  --link: #526b7a;
+  --link-hover: #2f4856;
+  --sans: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --serif: "PT Serif", Georgia, "Times New Roman", serif;
+}
+
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.75rem;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  width: min(100% - 40px, 690px);
+  margin: 0 auto;
+}
+
+.header {
+  padding: 42px 0 22px;
+  border-bottom: 1px solid var(--faint);
+  margin-bottom: 32px;
+}
+
+.header-title {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 1.17em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.header-title > a {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.header-subtitle {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: .025em;
+}
+
+.menu {
+  margin-top: 15px;
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.35;
+}
+.header-utility {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.menu-content,
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.menu-content { gap: 1rem; }
+.social-icons { gap: .72rem; }
+.menu-content a,
+.social-icons a,
+.footer a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.menu-content a:hover,
+.social-icons a:hover,
+.footer a:hover { color: var(--ink); }
+.menu-content .active { color: var(--ink); font-weight: 700; }
+.social-icons a { display: inline-flex; align-items: center; justify-content: center; }
+.profile-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+  fill: currentColor;
+}
+
+.content-container { min-height: 50vh; }
+article { margin: 0; }
+
+h1, h2, h3, h4 {
+  color: var(--ink);
+  font-family: var(--sans);
+  line-height: 1.28;
+}
+h1 {
+  margin: 0 0 1.25rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+h2 {
+  margin: 1.85rem 0 .8rem;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+h3 {
+  margin: 1.55rem 0 .72rem;
+  font-size: 1.17em;
+  font-weight: 700;
+}
+h4 {
+  margin: 1.25rem 0 .55rem;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+p { margin: 0 0 1rem; }
+ul, ol { margin-top: .35rem; margin-bottom: 1rem; padding-left: 1.35rem; }
+li { margin-bottom: .28rem; }
+strong { font-weight: 700; }
+
+a {
+  color: var(--link);
+  text-decoration-thickness: .07em;
+  text-underline-offset: .12em;
+}
+a:hover { color: var(--link-hover); }
+
+blockquote {
+  margin: 1.15rem 0 1.65rem;
+  padding: .08rem 0 .08rem 1rem;
+  border-left: 3px solid var(--rule);
+  color: var(--muted);
+  font-size: 1em;
+}
+blockquote p { margin: 0; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--faint);
+  margin: 2rem 0;
+}
+hr.inter-divider {
+  border-top-color: var(--rule);
+  margin: 2.2rem 0;
+}
+
+img { max-width: 100%; height: auto; }
+figure { margin-left: 0; margin-right: 0; }
+iframe { max-width: 100%; }
+
+/* Quiet note treatment inspired by linked-note interfaces. */
+.note,
+.current-note {
+  margin: 1.15rem 0 1.6rem;
+  padding-left: .9rem;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+  font-size: .92rem;
+}
+
+.footer {
+  margin-top: 3.2rem;
+  padding: 20px 0 34px;
+  border-top: 1px solid var(--faint);
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .8rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .9rem;
+  margin-bottom: 8px;
+}
+.footer-description { color: #90959a; }
+
+/* Keep profile pages calm despite their length. */
+.people-page h2 { margin-top: 2.2rem; }
+.people-page img { width: min(300px, 100%); }
+
+
+.people-page p { margin: 0 0 .5rem; }
+.people-page ul,
+.people-page ol { margin-top: .2rem; margin-bottom: .7rem; }
+.people-page h3 { margin-bottom: .6rem; }
+
+/* Contact details read like a note rather than a card. */
+.contact-emails { list-style: none; padding-left: 0; }
+.contact-emails li { display: grid; grid-template-columns: 3.6rem 1fr; column-gap: .3rem; }
+.contact-emails .email-label { grid-row: 1 / span 2; color: var(--ink); }
+.contact-emails .email-secondary { grid-column: 2; }
+.media-caption {
+  margin-top: .45rem;
+  text-align: center;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .72rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  html { font-size: 16px; }
+  body { font-size: 14px; line-height: 1.5rem; }
+  .container { width: min(100% - 30px, 690px); }
+  .header { padding-top: 28px; margin-bottom: 26px; }
+  .header-utility { align-items: flex-start; }
+  .menu-content { gap: .75rem; }
+  .social-icons { gap: .6rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.5em; }
+}

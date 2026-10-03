@@ -1,7 +1,0 @@
-title: "Theoretical Biology Group"
-description: "Ecology and Evolution"
-url: "https://LeonardoOna.github.io"
-baseurl: ""  # Leave empty for a user site
-theme: minima  # Or another theme if you prefer
-plugins:
-  - jekyll-seo-tag
